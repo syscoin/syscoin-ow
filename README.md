@@ -1,2 +1,2 @@
-# systistics
-Proof of concept rudimentary chain statistics console application using syscoin-js.
+# syscoin-ow
+Argument validation for humans (and Syscoin ;) ) based off of the fantastic ow library.
