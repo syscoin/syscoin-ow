@@ -27,6 +27,7 @@ const set_1 = require("./lib/predicates/set");
 exports.SetPredicate = set_1.SetPredicate;
 const weak_set_1 = require("./lib/predicates/weak-set");
 exports.WeakSetPredicate = weak_set_1.WeakSetPredicate;
+global.Buffer = global.Buffer || require("buffer").Buffer;
 const main = (value, predicate) => predicate[base_predicate_1.testSymbol](value, main);
 Object.defineProperties(main, {
     isValid: {

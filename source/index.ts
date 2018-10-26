@@ -14,6 +14,7 @@ import {SetPredicate} from './lib/predicates/set';
 import {WeakSetPredicate} from './lib/predicates/weak-set';
 
 type TypedArray = Int8Array | Uint8Array | Uint8ClampedArray | Int16Array | Uint16Array | Int32Array | Uint32Array | Float32Array | Float64Array;
+global.Buffer = global.Buffer || require("buffer").Buffer;
 
 export interface Ow {
 	/**
